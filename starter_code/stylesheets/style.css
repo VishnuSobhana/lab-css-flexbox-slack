@@ -8,3 +8,78 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color:#540B51 ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: none;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background-color:#540B51 ;
+}
+
+header h1{
+  color: white;
+}
+
+.header-btn{
+  
+  display:flex;
+  flex-direction: column;
+  width: 277px;
+  margin-top:5px; 
+}
+.sign-btn{
+  color: #540B51;
+  margin: 10px 0 10px 0;
+  height: 44px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.google-btn{
+display: flex;
+align-items: center;
+background-color:#4285F4 ;
+height: 44px;
+border-radius: 5px;
+}
+
+.google-logo{
+  height: 50px;
+  background-color: white;
+  margin: 3px;
+  height: 38px;
+}
+
+.google-signup{
+color: white;
+margin-left: 10px;
+font-weight: bold;
+}
+
+.header-img{
+width:765px;
+}
+
+.main-content{
+  border: 2px solid yellow;
+  display: flex;
+}
+.main-content p{
+  
+}
